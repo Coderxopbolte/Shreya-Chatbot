@@ -51,20 +51,20 @@ async def chatbot(client, message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/21941841a9fca15ea39e7.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━
-🥀 𝐀 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐀𝐢 𝐁𝐨𝐭 𝐨𝐟 𝐒𝐚𝐧𝐠𝐫𝐚𝐦.
+🥀 𝐀 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐀𝐢 𝐁𝐨𝐭 𝐨𝐟 𝑵𝑰𝑺𝑯𝑼 𝑶𝑷.
 
 ━━━━━━━━━━━━━━━━━━━
 🥀 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐁𝐨𝐭 𝐟𝐨𝐫 𝐓𝐠..
 ┏━━━━━━━━━━━━━━━━━┓
-┣➤ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ☞ [𝐒𝐚𝐧𝐠𝐫𝐚𝐦](https://t.me/The_Sangram)
-┣➤ 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐨𝐧 ☞ [𝐘𝐨𝐮𝐓𝐮𝐛𝐞](https://youtube.com/@Official_Sangram)
-┣➤ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ☞ [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/WorldChattingFriendsWCF)
-┣➤ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ☞ [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/WCFnetwork)
-┣➤ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☞ [𝐇𝐞𝐫𝐞](https://github.com/OpQueenbots/Shreya-Chatbot)
-┣➤ 𝐎𝐰𝐧𝐞𝐫 ☞ [𝐒𝐚𝐧𝐠𝐫𝐚𝐦 𝐱𝐃](https://t.me/Sangram_XD)
+┣➤ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ☞ [𝑵𝑰𝑺𝑯𝑼𝑶𝑷](https://t.me/NISHU_OP_OFFICIAL)
+┣
+┣➤ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ☞ [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/vick_support)
+┣➤ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ☞ [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/VICK_NETWORK)
+┣➤ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☞ [𝐇𝐞𝐫𝐞](https://NISHU_OP_OFFICIA)
+┣➤ 𝐎𝐰𝐧𝐞𝐫 ☞ [𝐒𝐚𝐧𝐠𝐫𝐚𝐦 𝐱𝐃](https://t.me/ NISHU_OP_OFFICIAl)
 ┗━━━━━━━━━━━━━━━━━┛
 
-🥀 𝐈𝐟 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐭𝐡𝐞𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐲 [𝐎𝐰𝐧𝐞𝐫](https://t.me/The_Sangram)""",
+🥀 𝐈𝐟 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐭𝐡𝐞𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐲 [𝐎𝐰𝐧𝐞𝐫](https://t.me/NISHU_OP_OFFICIAl )""",
     ) 
 
 
@@ -72,7 +72,7 @@ async def chatbot(client, message):
     filters.command("alive", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
-    await message.reply_text(f"**𝐒𝐡𝐫𝐞𝐲𝐚 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐢𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐟𝐨𝐫 𝐂𝐡𝐚𝐭𝐭𝐢𝐧𝐠**")
+    await message.reply_text(f"**vick 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐢𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐟𝐨𝐫 𝐂𝐡𝐚𝐭𝐭𝐢𝐧𝐠**")
 
 @client.on_message(
     filters.command("chatbot off", prefixes=["/", ".", "?", "-"])
